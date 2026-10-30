@@ -4,8 +4,68 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Asimovian&display=swap" rel="stylesheet">
+
+    <style>
+        .title {
+            font-family: 'Asimovian', sans-serif;
+            font-size: 10rem;
+            color: #BF4342;
+            padding: 0;
+            margin: 0;
+        }
+        .navbar {
+            background-color: white;
+            font-family: sans-serif;
+            font-size: 1rem;
+            display: flex;
+            min-height: 2.75rem;
+            flex-direction: row;
+            align-items: center;
+            padding: 0 1rem;
+            justify-content: flex-start;
+            gap: 2rem;
+        }
+        .navtext{
+            color: black;
+            text-decoration: none;
+            display: inline-block;
+        }
+        body {
+            background-color: #A78A7F;
+            margin: 0;
+            padding: 0;
+        }
+
+        .section {
+            width: 100vw;
+            height: 80vh;
+            display: flex;
+            background-color: #E7D7C1;
+            align-items: center;
+        }
+        .tsukune {
+            width: 25vw;
+            height: 70vh;
+            object-fit: cover;
+            overflow: hidden;
+            clip-path: polygon(10% 0%, 90% 0%, 100% 10%, 100% 90%, 90% 100%, 10% 100%, 0% 90%, 0% 10%);
+
+        }
+
+    </style>
 </head>
 <body>
-    <h1>Ichigo</h1>
+    <div class="navbar">
+        <a href="#" class="Home navtext">Home</a>
+        <a href="#" class="menu navtext">Menu</a>
+    </div>
+    <h1 class="title">Nomikai <br> Night</h1>
+    <div class="section">
+        <img src="https://iheartumami.com/wp-content/uploads/2020/06/Tsukune-Keto-recipe-I-Heart-Umami-3.jpg" alt="Tsukune" class="tsukune">
+    </div>
+    
 </body>
 </html>
